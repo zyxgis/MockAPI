@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+</head>
+
+<body>
+  <div id="info"></div>
+  <script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $.ajax({
+        url: 'http://127.0.0.1:3000/api/4',
+        type: "GET",
+        async: false,
+        success: function (data) {
+          console.log(data);
+          $('info').text(data);
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

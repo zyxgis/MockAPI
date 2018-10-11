@@ -1,0 +1,18 @@
+{
+  "name": "rtpsmock",
+  "version": "1.0.0",
+  "description": "mock data for Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Server": "supervisor app.js"
+  },
+  "author": "zyn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "getmac": "^1.4.6",
+    "glob": "^7.1.3",
+    "mockjs": "^1.0.1-beta3"
+  }
+}
