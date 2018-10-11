@@ -1,5 +1,5 @@
 {
-  "name": "rtpsmock",
+  "name": "MockAPI",
   "version": "1.0.0",
   "description": "mock data for Server",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "Server": "supervisor app.js"
   },
-  "author": "zyn",
+  "author": "zyx",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
